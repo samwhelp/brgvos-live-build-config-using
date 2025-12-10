@@ -31,7 +31,6 @@ mod_iso_build_via_void_mklive () {
 		-b ${opt_variant} \
 		-- \
 		-k ${opt_keymap} \
-		-B ${opt_variant} \
 		-l ${opt_locale} \
 		-e ${opt_root_shell} \
 		-v ${opt_linux_version} \
