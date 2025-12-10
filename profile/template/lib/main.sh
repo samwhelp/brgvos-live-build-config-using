@@ -29,7 +29,6 @@ mod_iso_build_via_void_mklive () {
 	sudo ./mkiso.sh \
 		-a ${opt_arch} \
 		-b ${opt_variant} \
-		-L ${opt_locale} \
 		-- \
 		-k ${opt_keymap} \
 		-B ${opt_variant} \
