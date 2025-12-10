@@ -19,6 +19,7 @@ mod_iso_build_via_void_mklive () {
 	## core start
 	info_msg "## Building via void-mklive"
 
+
 	## change working directory
 	info_msg "Change working directory to 'void-mklive'"
 	cd "${void_mklive_dir_path}"
