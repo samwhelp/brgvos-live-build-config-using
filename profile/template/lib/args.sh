@@ -21,6 +21,7 @@ if [ "${IS_DEBUG}" = "true" ]; then
 fi
 
 
+opt_postscript="${plan_dir_path}/postscript.sh"
 opt_includedir="${plan_dir_path}/includedir"
 opt_env=$(cat "${plan_dir_path}/args/env.txt")
 opt_arch=$(cat "${plan_dir_path}/args/arch.txt")
@@ -42,6 +43,7 @@ if [ "${IS_DEBUG}" = "true" ]; then
 	echo "## ## Option"
 	echo
 
+	echo "opt_postscript=${opt_postscript}"
 	echo "opt_includedir=${opt_includedir}"
 	echo "opt_env=${opt_env}"
 	echo "opt_arch=${opt_arch}"

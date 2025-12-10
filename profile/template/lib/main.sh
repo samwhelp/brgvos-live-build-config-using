@@ -37,6 +37,7 @@ mod_iso_build_via_void_mklive () {
 		-e ${opt_root_shell} \
 		-v ${opt_linux_version} \
 		-I "${opt_includedir}" \
+		-x "${opt_postscript}" \
 		-o "${opt_iso_file_name}" \
 		-T "${opt_title}" \
 		-p "${opt_package_install}" \
