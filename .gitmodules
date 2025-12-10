@@ -1,3 +1,6 @@
 [submodule "profile/template/void-mklive"]
 	path = profile/template/void-mklive
 	url = https://github.com/void-linux/void-mklive
+[submodule "template/includedir/etc/skel/.oh-my-bash"]
+	path = template/includedir/etc/skel/.oh-my-bash
+	url = https://github.com/ohmybash/oh-my-bash
